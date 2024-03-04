@@ -6,9 +6,9 @@
 
 ## 使用示例
 
-![demo](.\pic\demo.png)
+![demo](./pic/demo.png)
 
-<video src=".\pic\demo.mp4"></video>
+<video src="./pic/demo.mp4"></video>
 
 ## 硬件连接图
 
@@ -16,6 +16,6 @@ RDK X3在40PIN上默认使能 UART3，物理管脚号 8 和 10，IO电压 3.3V�
 
 我使用的ESP32开发板为ESP32-DevKitC-V1，基本上淘宝20元出头的都是这个板子，IO电压3.3V，有三个硬串口，分别为UART0，1，2，其中0用于固件下载和Debug串口输出。在这里我用的是UART2与RDK X3进行串口通讯。
 
-![connect](.\pic\connect.png)
+![connect](./pic/connect.png)
 
 如果您使用的是Arduino-UNO或者ESP8266，并且使用唯一的硬件串口与RDK X3进行通讯，烧录Arduino固件时需要断开与RDK X3的串口连接。
