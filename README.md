@@ -8,8 +8,6 @@
 
 ![demo](./pic/demo.png)
 
-<video src="./pic/demo.mp4"></video>
-
 ## 硬件连接图
 
 RDK X3在40PIN上默认使能 UART3，物理管脚号 8 和 10，IO电压 3.3V，支持波特率：9600,19200,38400,57600,115200,921600.
